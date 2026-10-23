@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en" class="is-loading">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Marcin Borowski</title>
+    <meta name="description" content="Art Director and Product Designer." />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <!-- Loader from the first paint (hero-chips.js runs it), in the saved theme's colour -->
+    <style>.chips-loader.is-page{z-index:2000;color:#000;background:#fff;place-items:center;display:grid;position:fixed;inset:0}[data-theme=dark] .chips-loader.is-page{color:#f1f1ee;background:#0e0e0f}[data-theme=paper] .chips-loader.is-page{color:#2b261f;background:#f3eee2}[data-theme=mono] .chips-loader.is-page{color:#1a1b19;background:#e8e9e4}[data-theme=ink] .chips-loader.is-page{color:#83bcb4;background:#102726}.chips-loader__icon{width:88px;height:88px;display:block}.chips-loader.is-roomy .chips-loader__icon{width:132px;height:132px}.chips-loader__icon>svg{width:100%;height:100%;display:block}html.is-loading{overflow:hidden}html.is-loading :where(img,video,svg){max-width:100%;height:auto}</style>
+    <script>
+      history.scrollRestoration = 'manual';
+      try {
+        const t = localStorage.getItem('portfolio-theme');
+        if (t && t !== 'light') document.documentElement.dataset.theme = t;
+      } catch {}
+    </script>
+    <script>
+      (function () {
+        var k = 0, el, icons;
+        var show = function () {
+          el = el || document.querySelector('.chips-loader.is-page .chips-loader__icon');
+          icons = icons || (document.getElementById('loader-icons') || {}).content;
+          if (el && icons && icons.children.length) el.replaceChildren(icons.children[k % icons.children.length].cloneNode(true));
+        };
+        // The loader and the icons may not be parsed yet: each turn looks for them
+        window.__flicker = { id: setInterval(function () { k++; show(); }, 80), at: function () { return k; } };
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/main-BC_nTSvs.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/main-CcfpkOoh.css">
+  </head>
+  <body>
+    <div class="chips-loader is-page is-sticker is-roomy" aria-hidden="true"><span class="chips-loader__icon"></span></div>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true"><filter id="sticker-blur" filterUnits="userSpaceOnUse" x="-240" y="-1200" width="1440" height="1440"><feGaussianBlur stdDeviation="10"/></filter></svg>
+    <template id="loader-icons"><svg viewBox="-240 -1200 1440 1440" class="is-roomy" style="--room: 1.5" fill="currentColor" aria-hidden="true"><g class="sticker-shadow" filter="url(#sticker-blur)"><path d="M80-205v-384q0-18.75 13.13-31.88Q106.25-634 125-634h78v-121q0-18.75 13.13-31.88Q229.25-800 248-800h135q18.75 0 31.88 13.12Q428-773.75 428-755v121h104v-121q0-18.75 13.13-31.88Q558.25-800 577-800h135q18.75 0 31.88 13.12Q757-773.75 757-755v121h78q18.75 0 31.88 13.12Q880-607.75 880-589v384q0 18.75-13.12 31.87Q853.75-160 835-160H125q-18.75 0-31.87-13.13Q80-186.25 80-205Z"/></g><g><path d="M80-205v-384q0-18.75 13.13-31.88Q106.25-634 125-634h78v-121q0-18.75 13.13-31.88Q229.25-800 248-800h135q18.75 0 31.88 13.12Q428-773.75 428-755v121h104v-121q0-18.75 13.13-31.88Q558.25-800 577-800h135q18.75 0 31.88 13.12Q757-773.75 757-755v121h78q18.75 0 31.88 13.12Q880-607.75 880-589v384q0 18.75-13.12 31.87Q853.75-160 835-160H125q-18.75 0-31.87-13.13Q80-186.25 80-205Z"/></g></svg><svg viewBox="-240 -1200 1440 1440" class="is-roomy" style="--room: 1.5" fill="currentColor" aria-hidden="true"><g class="sticker-shadow" filter="url(#sticker-blur)"><path d="M172-120q-41.78 0-59.39-39T124-230l248-280v-270h-52q-12.75 0-21.37-8.68-8.63-8.67-8.63-21.5 0-12.82 8.63-21.32 8.62-8.5 21.37-8.5h320q12.75 0 21.38 8.68 8.62 8.67 8.62 21.5 0 12.82-8.62 21.32-8.63 8.5-21.38 8.5h-52v270l248 280q29 32 11.39 71T788-120H172Z"/></g><g><path d="M172-120q-41.78 0-59.39-39T124-230l248-280v-270h-52q-12.75 0-21.37-8.68-8.63-8.67-8.63-21.5 0-12.82 8.63-21.32 8.62-8.5 21.37-8.5h320q12.75 0 21.38 8.68 8.62 8.67 8.62 21.5 0 12.82-8.62 21.32-8.63 8.5-21.38 8.5h-52v270l248 280q29 32 11.39 71T788-120H172Z"/></g></svg><svg viewBox="-240 -1200 1440 1440" class="is-roomy" style="--room: 1.5" fill="currentColor" aria-hidden="true"><g class="sticker-shadow" filter="url(#sticker-blur)"><path d="M450-110v-160H255q-12.44 0-23.72-5T212-288l-71-71q-9-9-9-21t9-21l71-71q8-8 19.28-13 11.28-5 23.72-5h195v-90H190q-12.75 0-21.37-8.63Q160-597.25 160-610v-160q0-12.75 8.63-21.38Q177.25-800 190-800h260v-50q0-12.75 8.68-21.38 8.67-8.62 21.5-8.62 12.82 0 21.32 8.62 8.5 8.63 8.5 21.38v50h195q12.44 0 23.72 5T748-782l71 71q9 9 9 21t-9 21l-71 71q-8 8-19.28 13-11.28 5-23.72 5H510v90h260q12.75 0 21.38 8.62Q800-472.75 800-460v160q0 12.75-8.62 21.37Q782.75-270 770-270H510v160q0 12.75-8.68 21.37-8.67 8.63-21.5 8.63-12.82 0-21.32-8.63Q450-97.25 450-110Z"/></g><g><path d="M450-110v-160H255q-12.44 0-23.72-5T212-288l-71-71q-9-9-9-21t9-21l71-71q8-8 19.28-13 11.28-5 23.72-5h195v-90H190q-12.75 0-21.37-8.63Q160-597.25 160-610v-160q0-12.75 8.63-21.38Q177.25-800 190-800h260v-50q0-12.75 8.68-21.38 8.67-8.62 21.5-8.62 12.82 0 21.32 8.62 8.5 8.63 8.5 21.38v50h195q12.44 0 23.72 5T748-782l71 71q9 9 9 21t-9 21l-71 71q-8 8-19.28 13-11.28 5-23.72 5H510v90h260q12.75 0 21.38 8.62Q800-472.75 800-460v160q0 12.75-8.62 21.37Q782.75-270 770-270H510v160q0 12.75-8.68 21.37-8.67 8.63-21.5 8.63-12.82 0-21.32-8.63Q450-97.25 450-110Z"/></g></svg><svg viewBox="-240 -1200 1440 1440" class="is-roomy" style="--room: 1.5" fill="currentColor" aria-hidden="true"><g class="sticker-shadow" filter="url(#sticker-blur)"><path d="M179-179q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19Zm254 0q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19Zm254 0q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19ZM179-433q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19Zm254 0q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19Zm254 0q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19ZM179-687q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19Zm254 0q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19Zm254 0q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19Z"/></g><g><path d="M179-179q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19Zm254 0q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19Zm254 0q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19ZM179-433q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19Zm254 0q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19Zm254 0q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19ZM179-687q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19Zm254 0q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19Zm254 0q-19-19-19-47t19-47q19-19 47-19t47 19q19 19 19 47t-19 47q-19 19-47 19t-47-19Z"/></g></svg><svg viewBox="-240 -1200 1440 1440" class="is-roomy" style="--room: 1.5" fill="currentColor" aria-hidden="true"><g class="sticker-shadow" filter="url(#sticker-blur)"><path d="m654-454-91 147q-8 13-22.5 10T522-314l-33-133-306 305q-9 9-21 9t-21-9q-9-9-9-21t9-21l305-305-133-33q-14-4-17-18.5t10-22.5l147-92-12-172q-1-15 12.5-22t24.5 3l132 111 160-64q14-5 24 5t5 24l-65 160 111 132q10 11 3.5 24.5T827-441l-173-13ZM131-721q-5-5-5-11t5-11l46-46q5-5 11-5t11 5l45 45q5 5 5 11t-5 11l-46 46q-5 5-11 5t-11-5l-45-45Zm591 590-46-46q-5-5-4.5-11t5.5-11l45-45q5-5 11-5t11 5l46 46q5 5 4.5 11t-5.5 11l-45 45q-5 5-11 5t-11-5Z"/></g><g><path d="m654-454-91 147q-8 13-22.5 10T522-314l-33-133-306 305q-9 9-21 9t-21-9q-9-9-9-21t9-21l305-305-133-33q-14-4-17-18.5t10-22.5l147-92-12-172q-1-15 12.5-22t24.5 3l132 111 160-64q14-5 24 5t5 24l-65 160 111 132q10 11 3.5 24.5T827-441l-173-13ZM131-721q-5-5-5-11t5-11l46-46q5-5 11-5t11 5l45 45q5 5 5 11t-5 11l-46 46q-5 5-11 5t-11-5l-45-45Zm591 590-46-46q-5-5-4.5-11t5.5-11l45-45q5-5 11-5t11 5l46 46q5 5 4.5 11t-5.5 11l-45 45q-5 5-11 5t-11-5Z"/></g></svg><svg viewBox="-240 -1200 1440 1440" class="is-roomy" style="--room: 1.5" fill="currentColor" aria-hidden="true"><g class="sticker-shadow" filter="url(#sticker-blur)"><path d="M140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h520q24 0 42 18t18 42v215l134-134q7-7 16.5-3.5T880-649v338q0 10-9.5 13.5T854-301L720-435v215q0 24-18 42t-42 18H140Z"/></g><g><path d="M140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h520q24 0 42 18t18 42v215l134-134q7-7 16.5-3.5T880-649v338q0 10-9.5 13.5T854-301L720-435v215q0 24-18 42t-42 18H140Z"/></g></svg><svg viewBox="-240 -1200 1440 1440" class="is-roomy" style="--room: 1.5" fill="currentColor" aria-hidden="true"><g class="sticker-shadow" filter="url(#sticker-blur)"><path d="M180-120q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm183-353 117-58 117 58q15 8 29-1t14-26v-280H320v280q0 17 14 26t29 1Zm-43 193h120q17 0 28.5-11.5T480-320q0-17-11.5-28.5T440-360H320q-17 0-28.5 11.5T280-320q0 17 11.5 28.5T320-280Z"/></g><g><path d="M180-120q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm183-353 117-58 117 58q15 8 29-1t14-26v-280H320v280q0 17 14 26t29 1Zm-43 193h120q17 0 28.5-11.5T480-320q0-17-11.5-28.5T440-360H320q-17 0-28.5 11.5T280-320q0 17 11.5 28.5T320-280Z"/></g></svg><svg viewBox="-240 -1200 1440 1440" class="is-roomy" style="--room: 1.5" fill="currentColor" aria-hidden="true"><g class="sticker-shadow" filter="url(#sticker-blur)"><path d="M140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm0-60h680v-436H140v436Zm221-218-83-83q-9-9-8.5-21t9.5-21q9-9 21-9t21 9l104 104q9 9 9 21t-9 21L321-313q-9 9-21 9t-21-9q-9-9-9-21t9-21l82-83Zm159 150q-13 0-21.5-8.5T490-318q0-13 8.5-21.5T520-348h160q13 0 21.5 8.5T710-318q0 13-8.5 21.5T680-288H520Z"/></g><g><path d="M140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm0-60h680v-436H140v436Zm221-218-83-83q-9-9-8.5-21t9.5-21q9-9 21-9t21 9l104 104q9 9 9 21t-9 21L321-313q-9 9-21 9t-21-9q-9-9-9-21t9-21l82-83Zm159 150q-13 0-21.5-8.5T490-318q0-13 8.5-21.5T520-348h160q13 0 21.5 8.5T710-318q0 13-8.5 21.5T680-288H520Z"/></g></svg><svg viewBox="-240 -1200 1440 1440" class="is-roomy" style="--room: 1.5" fill="currentColor" aria-hidden="true"><g class="sticker-shadow" filter="url(#sticker-blur)"><path d="M189-160q-60 0-102.5-43T42-307q0-9 1-18t3-18l84-336q14-54 57-87.5t98-33.5h390q55 0 98 33.5t57 87.5l84 336q2 9 3.5 18.5T919-306q0 61-43.5 103.5T771-160q-42 0-78-22t-54-60l-28-58q-5-10-15-15t-21-5H385q-11 0-21 5t-15 15l-28 58q-18 38-54 60t-78 22Zm372.5-378.68q8.5-8.67 8.5-21.5 0-12.82-8.68-21.32-8.67-8.5-21.5-8.5-12.82 0-21.32 8.68-8.5 8.67-8.5 21.5 0 12.82 8.68 21.32 8.67 8.5 21.5 8.5 12.82 0 21.32-8.68Zm80-80q8.5-8.67 8.5-21.5 0-12.82-8.68-21.32-8.67-8.5-21.5-8.5-12.82 0-21.32 8.68-8.5 8.67-8.5 21.5 0 12.82 8.68 21.32 8.67 8.5 21.5 8.5 12.82 0 21.32-8.68Zm0 160q8.5-8.67 8.5-21.5 0-12.82-8.68-21.32-8.67-8.5-21.5-8.5-12.82 0-21.32 8.68-8.5 8.67-8.5 21.5 0 12.82 8.68 21.32 8.67 8.5 21.5 8.5 12.82 0 21.32-8.68Zm80-80q8.5-8.67 8.5-21.5 0-12.82-8.68-21.32-8.67-8.5-21.5-8.5-12.82 0-21.32 8.68-8.5 8.67-8.5 21.5 0 12.82 8.68 21.32 8.67 8.5 21.5 8.5 12.82 0 21.32-8.68ZM358-472.08q7-7.09 7-17.92v-45h45q10.83 0 17.92-7.12 7.08-7.11 7.08-18 0-10.88-7.08-17.88-7.09-7-17.92-7h-45v-45q0-10.83-7.12-17.92-7.11-7.08-18-7.08-10.88 0-17.88 7.08-7 7.09-7 17.92v45h-45q-10.83 0-17.92 7.12-7.08 7.11-7.08 18 0 10.88 7.08 17.88 7.09 7 17.92 7h45v45q0 10.83 7.12 17.92 7.11 7.08 18 7.08 10.88 0 17.88-7.08Z"/></g><g><path d="M189-160q-60 0-102.5-43T42-307q0-9 1-18t3-18l84-336q14-54 57-87.5t98-33.5h390q55 0 98 33.5t57 87.5l84 336q2 9 3.5 18.5T919-306q0 61-43.5 103.5T771-160q-42 0-78-22t-54-60l-28-58q-5-10-15-15t-21-5H385q-11 0-21 5t-15 15l-28 58q-18 38-54 60t-78 22Zm372.5-378.68q8.5-8.67 8.5-21.5 0-12.82-8.68-21.32-8.67-8.5-21.5-8.5-12.82 0-21.32 8.68-8.5 8.67-8.5 21.5 0 12.82 8.68 21.32 8.67 8.5 21.5 8.5 12.82 0 21.32-8.68Zm80-80q8.5-8.67 8.5-21.5 0-12.82-8.68-21.32-8.67-8.5-21.5-8.5-12.82 0-21.32 8.68-8.5 8.67-8.5 21.5 0 12.82 8.68 21.32 8.67 8.5 21.5 8.5 12.82 0 21.32-8.68Zm0 160q8.5-8.67 8.5-21.5 0-12.82-8.68-21.32-8.67-8.5-21.5-8.5-12.82 0-21.32 8.68-8.5 8.67-8.5 21.5 0 12.82 8.68 21.32 8.67 8.5 21.5 8.5 12.82 0 21.32-8.68Zm80-80q8.5-8.67 8.5-21.5 0-12.82-8.68-21.32-8.67-8.5-21.5-8.5-12.82 0-21.32 8.68-8.5 8.67-8.5 21.5 0 12.82 8.68 21.32 8.67 8.5 21.5 8.5 12.82 0 21.32-8.68ZM358-472.08q7-7.09 7-17.92v-45h45q10.83 0 17.92-7.12 7.08-7.11 7.08-18 0-10.88-7.08-17.88-7.09-7-17.92-7h-45v-45q0-10.83-7.12-17.92-7.11-7.08-18-7.08-10.88 0-17.88 7.08-7 7.09-7 17.92v45h-45q-10.83 0-17.92 7.12-7.08 7.11-7.08 18 0 10.88 7.08 17.88 7.09 7 17.92 7h45v45q0 10.83 7.12 17.92 7.11 7.08 18 7.08 10.88 0 17.88-7.08Z"/></g></svg></template>
+    <main>
+      <!-- Hero: a sentence with changing chips (src/heroes/hero-chips.*); the first visual peeks in below -->
+      <header class="hero">
+        <div class="chips-hero chips-hero--page card-hero sticker-hero" data-chips>
+          <img class="signature" src="assets/svg/signature.svg" alt="Marcin Borowski" width="119" height="32" />
+          <h1 class="chips__line"><span class="chips__row"><span class="chips__t">I build</span> <span class="chips__chip"></span><i class="chips__br"></i> <span class="chips__t"><span class="chips__comma">, </span>shape</span></span> <span class="chips__row"><span class="chips__chip"></span><i class="chips__br"></i> <span class="chips__t">and ship</span> <span class="chips__chip"></span><i class="chips__br"></i></span> <span class="chips__row"><span class="chips__t">for brands like:</span></span></h1>
+          <div class="chips__foot">
+            <ul class="chips__clients" aria-label="Clients">
+            <li role="img" aria-label="FIFA" style="-webkit-mask-image: url(assets/svg/client-fifa.svg); mask-image: url(assets/svg/client-fifa.svg); --w: 64px; --h: 19px"></li>
+            <li role="img" aria-label="Ligue 1" style="-webkit-mask-image: url(assets/svg/client-02.svg); mask-image: url(assets/svg/client-02.svg); --w: 44px; --h: 26px"></li>
+            <li role="img" aria-label="World Athletics" style="-webkit-mask-image: url(assets/svg/client-world-athletics.svg); mask-image: url(assets/svg/client-world-athletics.svg); --w: 48px; --h: 48px"></li>
+            <li role="img" aria-label="Shell" style="-webkit-mask-image: url(assets/svg/client-shell.svg); mask-image: url(assets/svg/client-shell.svg); --w: 36px; --h: 35px"></li>
+            <li role="img" aria-label="Nestlé" style="-webkit-mask-image: url(assets/svg/client-nestle.svg); mask-image: url(assets/svg/client-nestle.svg); --w: 39px; --h: 40px"></li>
+            <li role="img" aria-label="FEI" style="-webkit-mask-image: url(assets/svg/client-fei.svg); mask-image: url(assets/svg/client-fei.svg); --w: 67px; --h: 20px"></li>
+            <li role="img" aria-label="Red Bull" style="-webkit-mask-image: url(assets/svg/client-redbull.svg); mask-image: url(assets/svg/client-redbull.svg); --w: 94px; --h: 36px"></li>
+            </ul>
+            <p class="chips__hello">Say hello <a href="mailto:marcin@vibemedia.pl">marcin@vibemedia.pl</a> or <a href="https://www.linkedin.com/in/marcin-borowski-designer" target="_blank" rel="noopener">Linkedin</a></p>
+          </div>
+        </div>
+      </header>
+
+      <!-- Persona -->
+      <article class="project" id="persona">
+        <figure class="media"><img src="assets/img/PbJlfNTzeeaR0TxlKjgsMib1GI.png" alt="Persona" /></figure>
+        <dl class="details">
+          <dt class="muted">21 - 25'</dt><dd class="strong">Persona</dd>
+          <dt>My Role</dt><dd>Art Direction, Product Design, Team Lead</dd>
+          <dt>Description</dt><dd>Persona brings together an avatar collection, merchandise, a growing community, and AI-driven entertainment. Launched in February 2024, the initial avatar release sold out for 1,842 ETH (around $5M) and has since reached over 10,500 ETH in trading volume.</dd>
+          <dt>Focus</dt><dd>Art Direction<br />Branding<br />Design System<br />UX/UI<br />Motion</dd>
+        </dl>
+
+        <section class="block">
+          <figure class="media media--video"><video src="assets/video/Ap59DIAMrZbVmph8ZR0UH60ego.mp4" autoplay muted loop playsinline></video></figure>
+          <p class="caption">Built on an intricate, bespoke universe, the project delivers its immersive narrative across various media, including video</p>
+        </section>
+        <figure class="media"><img src="assets/img/KHcbEphqYvxHHJkfC6M6z3UY4.png" alt="" loading="lazy" /></figure>
+        <div class="phones">
+          <button class="device" data-device data-frame="dark" data-screen="assets/video/persona-mobile-poster.png" data-video="assets/video/persona-mobile.mp4" aria-label="Persona, screen 1 (video)"></button>
+          <button class="device" data-device data-frame="light" data-screen="assets/img/2e1yECwtRaQnecwU0fmOHkmVDQo.png" data-screen-small="assets/img/2e1yECwtRaQnecwU0fmOHkmVDQo-810.png" data-srcset="assets/img/2e1yECwtRaQnecwU0fmOHkmVDQo-270.png 270w, assets/img/2e1yECwtRaQnecwU0fmOHkmVDQo-405.png 405w, assets/img/2e1yECwtRaQnecwU0fmOHkmVDQo-540.png 540w, assets/img/2e1yECwtRaQnecwU0fmOHkmVDQo-810.png 810w, assets/img/2e1yECwtRaQnecwU0fmOHkmVDQo.png 1280w" data-sizes="(max-width: 809px) 70vw, 270px" aria-label="Persona, screen 2"></button>
+        </div>
+        <figure class="media"><img src="assets/img/PR4ucsBnHLi8hArDuQa7MU4xAcA.png" alt="" loading="lazy" /></figure>
+        <section class="block">
+          <div class="pair">
+            <div class="tile tile--sand"><div class="lottie tile__inset" data-src="assets/lottie/PYQoR59NJnREVrfcWeQECEB5ns.json"></div></div>
+            <div class="tile tile--sand"><div class="lottie" data-src="assets/lottie/zySu60E19oSUx9dTVQpDRVhq8kU.json"></div></div>
+          </div>
+          <p class="caption">Over time, the project expanded into a house of brands, bringing together its offerings under a unified brand identity system</p>
+        </section>
+        <figure class="media media--video"><video src="assets/video/5areSrzNI6BUaSAdqPkrg72K1qo.mp4" autoplay muted loop playsinline></video></figure>
+        <figure class="media"><img src="assets/img/1YcU9h7Kpu0ltGdHPFP6dn1ERxM.png" alt="" loading="lazy" /></figure>
+        <section class="block block--badges">
+          <div class="badges">
+            <img src="assets/svg/badges/acm.svg" alt="ACM" width="100" height="100" loading="lazy" />
+            <img src="assets/svg/badges/base.svg" alt="BASE" width="100" height="100" loading="lazy" />
+            <img src="assets/svg/badges/cncl.svg" alt="CNCL" width="100" height="100" loading="lazy" />
+            <img src="assets/svg/badges/h1.svg" alt="H1" width="100" height="100" loading="lazy" />
+            <img src="assets/svg/badges/h5.svg" alt="H5" width="100" height="100" loading="lazy" />
+            <img src="assets/svg/badges/h20.svg" alt="H20" width="100" height="100" loading="lazy" />
+            <img src="assets/svg/badges/pfp.svg" alt="PFP" width="100" height="100" loading="lazy" />
+            <img src="assets/svg/badges/stk.svg" alt="STK" width="100" height="100" loading="lazy" />
+          </div>
+          <p class="caption">Given the target audience, gamification and a reward system were essential to the entire experience</p>
+        </section>
+        <figure class="media"><img src="assets/img/O4RYOsEPTLw2HIysaa5WpG6DaQ.png" alt="" loading="lazy" /></figure>
+        <figure class="media"><img src="assets/img/l1xEEMKQS7Z6cN8yesrTMoLKaM.png" alt="" loading="lazy" /></figure>
+      </article>
+
+      <!-- Stack -->
+      <h2 class="divider"><span>Turn Change into Crypto</span></h2>
+      <article class="project project--split" id="stack">
+        <dl class="details">
+          <dt class="muted">19'</dt><dd class="strong">Stack</dd>
+          <dt>My Role</dt><dd>Art Direction<br />Product Design</dd>
+          <dt>Description</dt><dd>Micro-investing app that helps users turn everyday spare change into cryptocurrency investments.</dd>
+          <dt>Focus</dt><dd>Art Direction<br />Branding<br />Design System<br />UX/UI<br />Motion<br />3D</dd>
+        </dl>
+        <div class="project__body">
+          <div class="stage" data-device-clip>
+            <button class="device device--hero" data-device data-frame="dark" data-screen="assets/img/kWMdlff8zyPHkyNOFLGLnWsDDQw.png" data-screen-small="assets/img/kWMdlff8zyPHkyNOFLGLnWsDDQw-810.png" data-srcset="assets/img/kWMdlff8zyPHkyNOFLGLnWsDDQw-270.png 270w, assets/img/kWMdlff8zyPHkyNOFLGLnWsDDQw-405.png 405w, assets/img/kWMdlff8zyPHkyNOFLGLnWsDDQw-540.png 540w, assets/img/kWMdlff8zyPHkyNOFLGLnWsDDQw-810.png 810w, assets/img/kWMdlff8zyPHkyNOFLGLnWsDDQw.png 1280w" data-sizes="(min-width: 1560px) 648px, 70vw" aria-label="Stack, screen 2"></button>
+          </div>
+          <div class="phones">
+            <button class="device" data-device data-frame="dark" data-screen="assets/img/EDB4q1lS2D1YrgCP3O9So8fozs.png" data-screen-small="assets/img/EDB4q1lS2D1YrgCP3O9So8fozs-810.png" data-srcset="assets/img/EDB4q1lS2D1YrgCP3O9So8fozs-270.png 270w, assets/img/EDB4q1lS2D1YrgCP3O9So8fozs-405.png 405w, assets/img/EDB4q1lS2D1YrgCP3O9So8fozs-540.png 540w, assets/img/EDB4q1lS2D1YrgCP3O9So8fozs-810.png 810w, assets/img/EDB4q1lS2D1YrgCP3O9So8fozs.png 1280w" data-sizes="(max-width: 809px) 70vw, 270px" aria-label="Stack, screen 3"></button>
+            <button class="device" data-device data-frame="dark" data-screen="assets/video/stack-withdraw-poster.png" data-video="assets/video/stack-withdraw.mp4" aria-label="Stack, screen 1, withdraw (video)"></button>
+          </div>
+          <div class="phones">
+            <button class="device" data-device data-frame="dark" data-screen="assets/img/kWMdlff8zyPHkyNOFLGLnWsDDQw.png" data-screen-small="assets/img/kWMdlff8zyPHkyNOFLGLnWsDDQw-810.png" data-srcset="assets/img/kWMdlff8zyPHkyNOFLGLnWsDDQw-270.png 270w, assets/img/kWMdlff8zyPHkyNOFLGLnWsDDQw-405.png 405w, assets/img/kWMdlff8zyPHkyNOFLGLnWsDDQw-540.png 540w, assets/img/kWMdlff8zyPHkyNOFLGLnWsDDQw-810.png 810w, assets/img/kWMdlff8zyPHkyNOFLGLnWsDDQw.png 1280w" data-sizes="(max-width: 809px) 70vw, 270px" aria-label="Stack, screen 4"></button>
+          </div>
+          <div class="phones">
+            <button class="device" data-device data-frame="dark" data-screen="assets/img/j9CvmVDHBpvdsrIjdWKpHzLqgo.png" data-screen-small="assets/img/j9CvmVDHBpvdsrIjdWKpHzLqgo-810.png" data-srcset="assets/img/j9CvmVDHBpvdsrIjdWKpHzLqgo-270.png 270w, assets/img/j9CvmVDHBpvdsrIjdWKpHzLqgo-405.png 405w, assets/img/j9CvmVDHBpvdsrIjdWKpHzLqgo-540.png 540w, assets/img/j9CvmVDHBpvdsrIjdWKpHzLqgo-810.png 810w, assets/img/j9CvmVDHBpvdsrIjdWKpHzLqgo.png 1280w" data-sizes="(max-width: 809px) 70vw, 270px" aria-label="Stack, screen 7"></button>
+            <button class="device" data-device data-frame="dark" data-screen="assets/img/b6374KRI7gqQnvuFPJlLxtgWco.png" data-screen-small="assets/img/b6374KRI7gqQnvuFPJlLxtgWco-810.png" data-srcset="assets/img/b6374KRI7gqQnvuFPJlLxtgWco-270.png 270w, assets/img/b6374KRI7gqQnvuFPJlLxtgWco-405.png 405w, assets/img/b6374KRI7gqQnvuFPJlLxtgWco-540.png 540w, assets/img/b6374KRI7gqQnvuFPJlLxtgWco-810.png 810w, assets/img/b6374KRI7gqQnvuFPJlLxtgWco.png 1280w" data-sizes="(max-width: 809px) 70vw, 270px" aria-label="Stack, screen 8"></button>
+          </div>
+          <div class="phones">
+            <button class="device" data-device data-frame="dark" data-screen="assets/video/stack-notify-poster.png" data-video="assets/video/stack-notify.mp4" aria-label="Stack, notifications (video)"></button>
+          </div>
+        </div>
+      </article>
+
+      <!-- V1rage -->
+      <h2 class="divider"><span>Wheels Delivered</span></h2>
+      <article class="project" id="v1rage">
+        <figure class="media media--video media--headline">
+          <video src="assets/video/KTZ5pSHz4uOWzFdMiJMQkbsEE.mp4" autoplay muted loop playsinline></video>
+          <img class="headline" src="assets/svg/v1rage-headline.svg" alt="All ready to ride" width="2400" height="599" />
+        </figure>
+        <dl class="details">
+          <dt class="muted">21'</dt><dd class="strong">V1rage</dd>
+          <dt>My Role</dt><dd>Product Designer</dd>
+          <dt>Description</dt><dd>Premium automotive service offering car sales, leasing, and rentals with concierge service throughout the process.</dd>
+          <dt>Focus</dt><dd>Design System<br />UX/UI<br />Motion</dd>
+        </dl>
+        <figure class="media"><img src="assets/img/VOB1eJdpoFdo0OL3bsh9u7fqtUE.png" alt="" loading="lazy" /></figure>
+        <section class="block">
+          <div class="cards">
+            <div class="tile tile--grey"><img class="tile__art" src="assets/v1rage/garage.svg" alt="" loading="lazy" style="--w: 72.19%" /></div>
+            <div class="tile tile--grey"><img class="tile__art" src="assets/v1rage/lamp.svg" alt="" loading="lazy" style="--w: 75.94%" /></div>
+            <div class="tile tile--grey cards__tall"><img class="tile__art" src="assets/v1rage/watch.svg" alt="" loading="lazy" style="--w: 57.27%" /></div>
+          </div>
+          <p class="caption">iI collaboration with Blurb Studio</p>
+        </section>
+        <div class="phones">
+          <button class="device" data-device data-frame="light" data-screen="assets/img/iScY9oUYB7krB7W33a7iqheTk.png" data-screen-small="assets/img/iScY9oUYB7krB7W33a7iqheTk-810.png" data-srcset="assets/img/iScY9oUYB7krB7W33a7iqheTk-270.png 270w, assets/img/iScY9oUYB7krB7W33a7iqheTk-405.png 405w, assets/img/iScY9oUYB7krB7W33a7iqheTk-540.png 540w, assets/img/iScY9oUYB7krB7W33a7iqheTk-810.png 810w, assets/img/iScY9oUYB7krB7W33a7iqheTk.png 1280w" data-sizes="(max-width: 809px) 70vw, 270px" aria-label="Stack, screen 9"></button>
+          <button class="device" data-device data-frame="light" data-screen="assets/img/iS1DPA4bsPVtH3f5t1NQVGKB5Ks.png" data-screen-small="assets/img/iS1DPA4bsPVtH3f5t1NQVGKB5Ks-810.png" data-srcset="assets/img/iS1DPA4bsPVtH3f5t1NQVGKB5Ks-270.png 270w, assets/img/iS1DPA4bsPVtH3f5t1NQVGKB5Ks-405.png 405w, assets/img/iS1DPA4bsPVtH3f5t1NQVGKB5Ks-540.png 540w, assets/img/iS1DPA4bsPVtH3f5t1NQVGKB5Ks-810.png 810w, assets/img/iS1DPA4bsPVtH3f5t1NQVGKB5Ks.png 1280w" data-sizes="(max-width: 809px) 70vw, 270px" aria-label="V1rage, screen 1"></button>
+        </div>
+      </article>
+
+      <!-- Ultimate Champions -->
+      <h2 class="divider"><span>Collect, Play, Own</span></h2>
+      <article class="project" id="ultimate-champions">
+        <figure class="media media--video media--grey"><video src="assets/video/w46Sk4CNkqmgOutUnxNooJF5Ps.mp4" autoplay muted loop playsinline></video></figure>
+        <dl class="details">
+          <dt class="muted">21 - 23'</dt><dd class="strong">Ultimate Champions</dd>
+          <dt>My Role</dt><dd>Art Direction, Product Design, Team Lead</dd>
+          <dt>Description</dt><dd>Ultimate Champions reimagines fantasy sports by combining football and basketball with Web3 and digital athlete card collection across 160+ fully licensed clubs like Arsenal, FC Barcelona, and Real Madrid. The platform later evolved into a white-label solution, delivering the official fantasy football game for Ligue 1, France's top soccer league.</dd>
+          <dt>Focus</dt><dd>Branding<br />Design System<br />UX/UI<br />Motion<br />3D</dd>
+        </dl>
+        <figure class="media"><img src="assets/img/l4NV0qOquIHliauG8Xeoc1wRXk.png" alt="" loading="lazy" /></figure>
+        <section class="block block--padded">
+          <img class="card" src="assets/img/lh0JOlathAiyPQwzpLCA3FgXy8.png" alt="" loading="lazy" width="360" height="588" />
+          <p class="caption">The templated card system was a challenge in itself, navigating the entire pipeline from club alignment to production was quite a journey</p>
+        </section>
+        <figure class="media"><img src="assets/img/H6ymVt2qDSrp2soitPhE9lRlRZo.png" alt="" loading="lazy" /></figure>
+        <section class="block block--padded">
+          <img class="card" src="assets/img/Hg73it0Khgocno3jzu56L3OVHE.png" alt="Gold Arsenal" loading="lazy" width="360" height="628" />
+          <p class="caption">Relying heavily on 3D visuals, I created a scalable Blender design system to rapidly compose and render packs on demand</p>
+        </section>
+      </article>
+
+      <!-- Noinnn -->
+      <h2 class="divider"><span>Bet With Squads</span></h2>
+      <article class="project project--split" id="noinnn">
+        <dl class="details">
+          <dt class="muted">18'</dt><dd class="strong">Noinnn</dd>
+          <dt>My Role</dt><dd>Art Direction<br />Product Design</dd>
+          <dt>Description</dt><dd>Esports betting app focused on gamified betting, social interaction, and engaging, competitive experiences.</dd>
+          <dt>Focus</dt><dd>Art Direction<br />Branding<br />Design System<br />UX/UI<br />Motion<br />3D</dd>
+        </dl>
+        <div class="project__body">
+          <div class="stage" data-device-clip>
+            <button class="device device--hero" data-device data-frame="dark" data-screen="assets/img/XAcMTsfbto4iyhMrjDxIj2Ebs.png" data-screen-small="assets/img/XAcMTsfbto4iyhMrjDxIj2Ebs-810.png" data-srcset="assets/img/XAcMTsfbto4iyhMrjDxIj2Ebs-270.png 270w, assets/img/XAcMTsfbto4iyhMrjDxIj2Ebs-405.png 405w, assets/img/XAcMTsfbto4iyhMrjDxIj2Ebs-540.png 540w, assets/img/XAcMTsfbto4iyhMrjDxIj2Ebs-810.png 810w, assets/img/XAcMTsfbto4iyhMrjDxIj2Ebs.png 1280w" data-sizes="(min-width: 1560px) 648px, 70vw" aria-label="Ultimate Champions, screen 1"></button>
+          </div>
+          <div class="phones">
+            <button class="device" data-device data-frame="dark" data-screen="assets/img/gk1dpXwcA3LoOgV1t6dvIXYe4I0.png" data-screen-small="assets/img/gk1dpXwcA3LoOgV1t6dvIXYe4I0-810.png" data-srcset="assets/img/gk1dpXwcA3LoOgV1t6dvIXYe4I0-270.png 270w, assets/img/gk1dpXwcA3LoOgV1t6dvIXYe4I0-405.png 405w, assets/img/gk1dpXwcA3LoOgV1t6dvIXYe4I0-540.png 540w, assets/img/gk1dpXwcA3LoOgV1t6dvIXYe4I0-810.png 810w, assets/img/gk1dpXwcA3LoOgV1t6dvIXYe4I0.png 1280w" data-sizes="(max-width: 809px) 70vw, 270px" aria-label="Ultimate Champions, screen 2"></button>
+            <button class="device" data-device data-frame="dark" data-screen="assets/img/hVIJSTYjXkahzwtCyUYZjYmrgo.png" data-screen-small="assets/img/hVIJSTYjXkahzwtCyUYZjYmrgo-810.png" data-srcset="assets/img/hVIJSTYjXkahzwtCyUYZjYmrgo-270.png 270w, assets/img/hVIJSTYjXkahzwtCyUYZjYmrgo-405.png 405w, assets/img/hVIJSTYjXkahzwtCyUYZjYmrgo-540.png 540w, assets/img/hVIJSTYjXkahzwtCyUYZjYmrgo-810.png 810w, assets/img/hVIJSTYjXkahzwtCyUYZjYmrgo.png 1280w" data-sizes="(max-width: 809px) 70vw, 270px" aria-label="Noinnn, screen 1"></button>
+          </div>
+          <div class="phones">
+            <button class="device" data-device data-frame="dark" data-screen="assets/img/AlLh5uJO8J0nz1CvrrcXHPMkA.png" data-screen-small="assets/img/AlLh5uJO8J0nz1CvrrcXHPMkA-810.png" data-srcset="assets/img/AlLh5uJO8J0nz1CvrrcXHPMkA-270.png 270w, assets/img/AlLh5uJO8J0nz1CvrrcXHPMkA-405.png 405w, assets/img/AlLh5uJO8J0nz1CvrrcXHPMkA-540.png 540w, assets/img/AlLh5uJO8J0nz1CvrrcXHPMkA-810.png 810w, assets/img/AlLh5uJO8J0nz1CvrrcXHPMkA.png 1280w" data-sizes="(max-width: 809px) 70vw, 270px" aria-label="Noinnn, screen 2"></button>
+          </div>
+          <div class="phones">
+            <button class="device" data-device data-frame="dark" data-screen="assets/img/noinnn-player.png" data-screen-small="assets/img/noinnn-player-810.png" data-srcset="assets/img/noinnn-player-270.png 270w, assets/img/noinnn-player-405.png 405w, assets/img/noinnn-player-540.png 540w, assets/img/noinnn-player-810.png 810w, assets/img/noinnn-player.png 920w" data-sizes="(max-width: 809px) 70vw, 270px" aria-label="Noinnn, screen 3"></button>
+            <button class="device" data-device data-frame="dark" data-screen="assets/img/k1M6rc67zzEt3ijk0tLFExrL4wQ.png" data-screen-small="assets/img/k1M6rc67zzEt3ijk0tLFExrL4wQ-810.png" data-srcset="assets/img/k1M6rc67zzEt3ijk0tLFExrL4wQ-270.png 270w, assets/img/k1M6rc67zzEt3ijk0tLFExrL4wQ-405.png 405w, assets/img/k1M6rc67zzEt3ijk0tLFExrL4wQ-540.png 540w, assets/img/k1M6rc67zzEt3ijk0tLFExrL4wQ-810.png 810w, assets/img/k1M6rc67zzEt3ijk0tLFExrL4wQ.png 1280w" data-sizes="(max-width: 809px) 70vw, 270px" aria-label="Noinnn, screen 4"></button>
+          </div>
+          <div class="phones">
+            <button class="device" data-device data-frame="dark" data-screen="assets/img/XAcMTsfbto4iyhMrjDxIj2Ebs.png" data-screen-small="assets/img/XAcMTsfbto4iyhMrjDxIj2Ebs-810.png" data-srcset="assets/img/XAcMTsfbto4iyhMrjDxIj2Ebs-270.png 270w, assets/img/XAcMTsfbto4iyhMrjDxIj2Ebs-405.png 405w, assets/img/XAcMTsfbto4iyhMrjDxIj2Ebs-540.png 540w, assets/img/XAcMTsfbto4iyhMrjDxIj2Ebs-810.png 810w, assets/img/XAcMTsfbto4iyhMrjDxIj2Ebs.png 1280w" data-sizes="(max-width: 809px) 70vw, 270px" aria-label="Noinnn, screen 5"></button>
+            <button class="device" data-device data-frame="dark" data-screen="assets/img/XdjGkdSCpkr8bU4G5PjrboafYSQ.png" data-screen-small="assets/img/XdjGkdSCpkr8bU4G5PjrboafYSQ-810.png" data-srcset="assets/img/XdjGkdSCpkr8bU4G5PjrboafYSQ-270.png 270w, assets/img/XdjGkdSCpkr8bU4G5PjrboafYSQ-405.png 405w, assets/img/XdjGkdSCpkr8bU4G5PjrboafYSQ-540.png 540w, assets/img/XdjGkdSCpkr8bU4G5PjrboafYSQ-810.png 810w, assets/img/XdjGkdSCpkr8bU4G5PjrboafYSQ.png 1280w" data-sizes="(max-width: 809px) 70vw, 270px" aria-label="Noinnn, screen 6"></button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Outro -->
+      <footer class="outro">
+        <div class="clients">
+          <ul>
+            <li>Shell</li><li>Ligue One</li><li>Persona</li><li>V1rage</li><li>World Athletics</li><li>Bayer</li>
+          </ul>
+          <ul>
+            <li>Pro Writing Aid</li><li>Federation for Equestrian Sports</li><li>Polish National Healthcare</li><li>FaZe Clan</li><li>Nestlé</li><li>Freerid World Tour</li>
+          </ul>
+          <ul>
+            <li>FIFA</li><li>Coin Metro</li><li>Bendigo Bank</li><li>European Broadcasting Union</li><li>Redbull</li><li>Ford</li>
+          </ul>
+        </div>
+        <div class="footer">
+          <img class="signature" src="assets/svg/signature.svg" alt="Marcin Borowski" width="119" height="32" />
+          <p>2026</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
