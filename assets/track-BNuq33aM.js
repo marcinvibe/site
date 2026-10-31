@@ -1,0 +1,1 @@
+var e=[];function t(e,t){try{window.umami?.track(e,t)}catch{}}var n=new Set;function r(e,r){n.has(e)||(n.add(e),t(e,r))}export{r as n,e as r,t};
